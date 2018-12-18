@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-utility" charset="UTF-8" />
+  </component>
+</project>
