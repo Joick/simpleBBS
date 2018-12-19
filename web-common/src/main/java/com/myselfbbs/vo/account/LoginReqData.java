@@ -1,6 +1,6 @@
 package com.myselfbbs.vo.account;
 
-import com.myselfbbs.Enum.LoginType;
+import com.myselfbbs.enums.LoginType;
 
 public class LoginReqData {
     private String account;

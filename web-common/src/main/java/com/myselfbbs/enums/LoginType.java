@@ -1,4 +1,4 @@
-package com.myselfbbs.Enum;
+package com.myselfbbs.enums;
 
 /**
  * 登录类型枚举

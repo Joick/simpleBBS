@@ -79,8 +79,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <jvmArguments>
+                        -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8800
+                    </jvmArguments>
                     <!--  指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.myself.bbs.BBSApplication</mainClass>
+                    <mainClass>com.myself.bbs.StartUpApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
