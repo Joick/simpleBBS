@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@MapperScan("com.myselfbbs.dao.mapper")
 @ComponentScan({"com.myselfbbs.controller"})
 public class StartUpApplication {
 

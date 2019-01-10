@@ -1,8 +1,6 @@
 package com.myselfbbs.vo.account;
 
-import java.util.Date;
-import com.myselfbbs.po.*;
-import com.myselfbbs.utils.UuidUtil;
+import com.myselfbbs.po.User;
 
 public class RegisterReqModel {
     private String email;

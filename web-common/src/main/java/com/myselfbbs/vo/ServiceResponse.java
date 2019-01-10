@@ -2,7 +2,7 @@ package com.myselfbbs.vo;
 
 public class ServiceResponse<T> {
     private String code;
-    private String message;
+    private String msg;
     private T data;
 
     public ServiceResponse() {
@@ -10,18 +10,18 @@ public class ServiceResponse<T> {
 
     public void success(){
         this.setCode("000");
-        this.setMessage("处理成功");
+        this.setMsg("处理成功");
     }
 
     public void success(T data) {
         this.setCode("000");
-        this.setMessage("处理成功");
+        this.setMsg("处理成功");
         this.setData(data);
     }
 
     public void fail(String message) {
         this.setCode("500");
-        this.setMessage(message);
+        this.setMsg(message);
     }
 
     public String getCode() {
@@ -32,12 +32,12 @@ public class ServiceResponse<T> {
         this.code = code;
     }
 
-    public String getMessage() {
-        return message;
+    public String getMsg() {
+        return msg;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
 
     public T getData() {
